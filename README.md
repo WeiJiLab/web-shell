@@ -16,6 +16,7 @@ $ npm i piral-cli -g
 
 ## Build
 ```bash
+$ npm i
 $ piral build
 ```
 
