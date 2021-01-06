@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "piral debug",
-    "build": "piral build"
+    "build": "piral build",
+    "docker": "docker build -t alpine/webshell ."
   },
   "app": "./src/index.html",
   "pilets": {

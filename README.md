@@ -17,7 +17,12 @@ $ npm i piral-cli -g
 ## Build
 ```bash
 $ npm i
-$ piral build
+$ npm run build
+```
+
+## Docker Image
+```bash
+$ npm run docker
 ```
 
 ## Debug
@@ -43,7 +48,7 @@ const feedUrl = 'http://localhost:9000/api/v1/pilet';
     ```
 ### Step 2: Launch as Debug
 ```bash
-$ piral debug
+$ npm run start
 ```
 
 
