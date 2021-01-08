@@ -9,4 +9,4 @@ COPY --from=builder /home/dist/release/* /usr/share/nginx/shell/
 COPY --from=builder /home/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
-ENTRYPOINT nginx & /bin/bash
+ENTRYPOINT nginx
