@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+USER_AND_REPO="WeiJiLab/argocd-deployment"
+
+VALUE_FILE_PATH="helm/chart/web-shell/values-dev.yaml"
+
+REPLACE_MAP="[image.tag=${TAG}]"
