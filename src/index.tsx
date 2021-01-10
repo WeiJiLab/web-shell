@@ -3,7 +3,7 @@ import { renderInstance } from 'piral';
 import { layout, errors } from './layout';
 
 // change to your feed URL here (either using feed.piral.cloud or your own service)
-const feedUrl = 'http://pilet-service:9000/api/v1/pilet';
+const feedUrl = 'https://feed.piral.cloud/api/v1/pilet/security-platform';
 
 renderInstance({
   layout,
